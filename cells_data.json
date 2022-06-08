@@ -1,0 +1,393 @@
+{
+	"cells": {
+		"1 electron wire": [
+			{
+				"range": [
+					1
+				],
+				"searchable": "input wire head",
+				"turn into": "1 electron wire head"
+			}
+		],
+		"1 electron wire head": [
+			{
+				"range": [
+					0
+				],
+				"searchable": "",
+				"turn into": "1 electron wire tail"
+			}
+		],
+		"1 electron wire tail": [
+			{
+				"range": [
+					0
+				],
+				"searchable": "",
+				"turn into": "1 electron wire"
+			}
+		],
+		"2 electron wire": [
+			{
+				"range": [
+					2
+				],
+				"searchable": "input wire head",
+				"turn into": "2 electron wire head"
+			}
+		],
+		"2 electron wire head": [
+			{
+				"range": [
+					0
+				],
+				"searchable": "",
+				"turn into": "2 electron wire tail"
+			}
+		],
+		"2 electron wire tail": [
+			{
+				"range": [
+					0
+				],
+				"searchable": "",
+				"turn into": "2 electron wire"
+			}
+		],
+		"UNKNOWN": [
+			{
+				"range": [
+					0
+				],
+				"searchable": "",
+				"turn into": "UNKNOWN"
+			}
+		],
+		"button": [
+			{
+				"range": [
+					0
+				],
+				"searchable": "",
+				"turn into": "button"
+			}
+		],
+		"button active": [
+			{
+				"range": [
+					0
+				],
+				"searchable": "",
+				"turn into": "button"
+			}
+		],
+		"comment": [
+			{
+				"range": [
+					0
+				],
+				"searchable": "",
+				"turn into": "comment"
+			}
+		],
+		"electron head": [
+			{
+				"range": [
+					0
+				],
+				"searchable": "",
+				"turn into": "electron tail"
+			}
+		],
+		"electron tail": [
+			{
+				"range": [
+					0
+				],
+				"searchable": "",
+				"turn into": "wire"
+			}
+		],
+		"elevator": [
+			{
+				"range": [
+					1,
+					2
+				],
+				"searchable": "input wire head",
+				"turn into": "elevator head"
+			}
+		],
+		"elevator head": [
+			{
+				"range": [
+					0
+				],
+				"searchable": "",
+				"turn into": "elevator tail"
+			}
+		],
+		"elevator tail": [
+			{
+				"range": [
+					0
+				],
+				"searchable": "",
+				"turn into": "elevator"
+			}
+		],
+		"eraser": [
+			{
+				"range": [
+					0
+				],
+				"searchable": "",
+				"turn into": "eraser"
+			}
+		],
+		"input wire": [
+			{
+				"range": [
+					1,
+					2
+				],
+				"searchable": "electron head",
+				"turn into": "input wire head"
+			}
+		],
+		"input wire head": [
+			{
+				"range": [
+					0
+				],
+				"searchable": "",
+				"turn into": "input wire tail"
+			}
+		],
+		"input wire tail": [
+			{
+				"range": [
+					0
+				],
+				"searchable": "",
+				"turn into": "input wire"
+			}
+		],
+		"manual switch": [
+			{
+				"range": [
+					0
+				],
+				"searchable": "",
+				"turn into": "manual switch"
+			}
+		],
+		"manual switch active": [
+			{
+				"range": [
+					0
+				],
+				"searchable": "",
+				"turn into": "manual switch active"
+			}
+		],
+		"output wire": [
+			{
+				"range": [
+					1,
+					2
+				],
+				"searchable": "2 electron wire head",
+				"turn into": "output wire head"
+			},
+			{
+				"range": [
+					1,
+					2
+				],
+				"searchable": "1 electron wire head",
+				"turn into": "output wire head"
+			},
+			{
+				"range": [
+					1,
+					2
+				],
+				"searchable": "elevator head",
+				"turn into": "output wire head"
+			},
+			{
+				"range": [
+					1,
+					2
+				],
+				"searchable": "button active",
+				"turn into": "output wire head"
+			},
+			{
+				"range": [
+					1,
+					2
+				],
+				"searchable": "manual switch active",
+				"turn into": "output wire head"
+			},
+			{
+				"range": [
+					1,
+					2
+				],
+				"searchable": "input wire head",
+				"turn into": "output wire head"
+			},
+			{
+				"range": [
+					1,
+					2
+				],
+				"searchable": "switch head",
+				"turn into": "output wire head"
+			}
+		],
+		"output wire head": [
+			{
+				"range": [
+					0
+				],
+				"searchable": "",
+				"turn into": "output wire tail"
+			}
+		],
+		"output wire tail": [
+			{
+				"range": [
+					0
+				],
+				"searchable": "",
+				"turn into": "output wire"
+			}
+		],
+		"switch head": [
+			{
+				"range": [
+					1,
+					2
+				],
+				"searchable": "input wire head",
+				"turn into": "switch off"
+			},
+			{
+				"range": [
+					0
+				],
+				"searchable": "",
+				"turn into": "switch tail"
+			}
+		],
+		"switch off": [
+			{
+				"range": [
+					1,
+					2
+				],
+				"searchable": "input wire head",
+				"turn into": "switch on"
+			}
+		],
+		"switch on": [
+			{
+				"range": [
+					1,
+					2
+				],
+				"searchable": "input wire head",
+				"turn into": "switch off"
+			},
+			{
+				"range": [
+					1,
+					2
+				],
+				"searchable": "electron head",
+				"turn into": "switch head"
+			}
+		],
+		"switch tail": [
+			{
+				"range": [
+					1,
+					2
+				],
+				"searchable": "input wire head",
+				"turn into": "switch off"
+			},
+			{
+				"range": [
+					0
+				],
+				"searchable": "",
+				"turn into": "switch on"
+			}
+		],
+		"wire": [
+			{
+				"range": [
+					1,
+					2
+				],
+				"searchable": "electron head",
+				"turn into": "electron head"
+			},
+			{
+				"range": [
+					1,
+					2
+				],
+				"searchable": "output wire head",
+				"turn into": "electron head"
+			},
+			{
+				"range": [
+					1,
+					2
+				],
+				"searchable": "switch head",
+				"turn into": "electron head"
+			}
+		]
+	},
+	"current_tools": [
+		"eraser",
+		"wire",
+		"electron head",
+		"electron tail",
+		"2 electron wire",
+		"1 electron wire",
+		"elevator",
+		"button",
+		"manual switch",
+		"switch on",
+		"switch off",
+		"input wire",
+		"output wire",
+		"comment"
+	],
+	"modifications": {},
+	"output_cells": [],
+	"tools": [
+		"eraser",
+		"wire",
+		"electron head",
+		"electron tail",
+		"2 electron wire",
+		"1 electron wire",
+		"elevator",
+		"button",
+		"manual switch",
+		"switch on",
+		"switch off",
+		"input wire",
+		"output wire",
+		"comment"
+	]
+}
