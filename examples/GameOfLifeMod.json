@@ -1,0 +1,33 @@
+{
+	"name":"Conway's Game Of Life",
+	"cells":{
+		"Electron dead cell":[
+			{
+				"searchable":"Life cell",
+				"range":[3],
+				"turn into":"Life cell"
+			},
+			{
+				"searchable":"input wire head",
+				"range":[1,2],
+				"turn into":"Life cell"
+			}
+		],
+		"Dead cell":[
+			{
+				"searchable":"Life cell",
+				"range":[3],
+				"turn into":"Life cell"
+			}
+		],
+		"Life cell":[
+			{
+				"searchable":"Life cell",
+				"range":[0, 1, 4, 5, 6, 7, 8],
+				"turn into":"Dead cell"
+			}
+		]
+	},
+	"output_cells":["Life cell"],
+	"tools":["Dead cell", "Life cell", "Electron dead cell"]
+}

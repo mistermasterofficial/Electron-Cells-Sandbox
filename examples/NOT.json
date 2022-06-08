@@ -1,0 +1,50 @@
+{
+	"name":"Logic NOT",
+	"cells":{
+		"NOT":[
+			{
+				"searchable":"input wire head",
+				"range":[1, 2],
+				"turn into":"NOT"
+			},
+			{
+				"searchable":"",
+				"range":[0],
+				"turn into":"NOT 1"
+			}
+		],
+		"NOT 1":[
+			{
+				"searchable":"input wire head",
+				"range":[1, 2],
+				"turn into":"NOT"
+			},
+			{
+				"searchable":"",
+				"range":[0],
+				"turn into":"NOT 2"
+			}
+		],
+		"NOT 2":[
+			{
+				"searchable":"input wire head",
+				"range":[1, 2],
+				"turn into":"NOT"
+			},
+			{
+				"searchable":"",
+				"range":[0],
+				"turn into":"NOT active"
+			}
+		],
+		"NOT active":[
+			{
+				"searchable":"input wire head",
+				"range":[1, 2],
+				"turn into":"NOT"
+			}
+		]
+	},
+	"output_cells":["NOT active"],
+	"tools":["NOT"]
+}
