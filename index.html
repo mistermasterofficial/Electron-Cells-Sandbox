@@ -9,56 +9,13 @@
 		<link href="/styles/background.css" rel="stylesheet">
 		<link rel="icon" href="/images/favicon.ico"/>
 		<title>Мистер Мастер | Electron Cells Sandbox</title>
-		<script src="/scripts/default.js"></script>
 	</head>
 	<body>
-		<div id="loading-screen">
-			<img src="/images/svg/loading_logo2.svg" style="height: 25em;">
-			<img id="loading-img" src="/images/svg/loading_logo1.svg" style="height: 25em;">
-		</div>
-		<div id="side-panel">
-			<a href="/" style="width: 100%; margin: 0; padding: 0; text-align: center;">
-				<img src="/images/svg/logo.svg">
-			</a>
-			<ul>
-				<li><a href="/pages/news/">Новости</a></li>
-				<li><a href="/pages/gallery/">Галерея</a></li>
-				<li><a href="/pages/projects/" id="current-page">Проекты</a></li>
-				<li><a href="/pages/others/">Прочее</a></li>
-				<li><a href="/pages/about/">Об авторе</a></li>
-				<li>
-					<a href="https://t.me/MisterMasterOfficial" style="display: flex; flex-direction: column;" target="_blank">
-						<img src="/images/svg/telegram_logo.svg" width="50%" style="margin-left: auto; margin-right: auto;">
-						Telegram
-					</a>
-				</li>
-			</ul>
-		</div>
-		<div id="top-panel">
-			<div id="top-panel-top">
-				<a href="/">
-					<img src="/images/svg/logo.svg" height="100%">
-				</a>
-				<button type="button" style="padding: auto;" onclick="toggle_visibility_id('top-panel-dropdown');">
-					<img src="/images/svg/menu-burger.svg" height="80">
-				</button>
-			</div>
-			<div id="top-panel-dropdown">
-				<ul>
-					<li><a href="/pages/news/">Новости</a></li>
-					<li><a href="/pages/gallery/">Галерея</a></li>
-					<li><a href="/pages/projects/" id="current-page">Проекты</a></li>
-					<li><a href="/pages/others/">Прочее</a></li>
-					<li><a href="/pages/about/">Об авторе</a></li>
-					<li>
-						<a href="https://t.me/MisterMasterOfficial" style="display: inline-flex; justify-content: center; align-items: center;" target="_blank">
-							<img src="/images/svg/telegram_logo.svg" width="10%">
-							Telegram
-						</a>
-					</li>
-				</ul>
-			</div>
-		</div>
+		<div id="loading-screen"></div>
+		<div id="side-panel"></div>
+		<div id="top-panel"></div>
+		<script src="/scripts/default.js"></script>
+		
 		<div id="main-page">
 			<div class="background-img2 main-caption">
 				<h1>Electron Cells Sandbox</h1>
