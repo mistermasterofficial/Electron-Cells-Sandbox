@@ -601,7 +601,7 @@ def about_dialog(settings):
 	ECS_logo_label = Label(image=ECS_logo, cursor='hand1')
 	ECS_logo_label.config(bg="#777777")
 	ECS_logo_label.pack(expand=True)
-	ECS_logo_label.bind("<Button-1>", lambda e: go_to("https://t.me/joinchat/GRjK8WqdP_gxZTA6"))
+	ECS_logo_label.bind("<Button-1>", lambda e: go_to("https://mistermasterofficial.github.io/Electron-Cells-Sandbox/"))
 
 	info_label = Label(text="Electron Cells Sandbox. Fonts: Roboto, Geostar Fill.\n©Mister Master feat. Robotix 2021.\nAll rights reserved.", font="20", fg="#000000")	
 	info_label.config(bg="#777777")
